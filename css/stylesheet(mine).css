@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+
+body {
+    width: 100%;
+    margin: auto;
+    /*background-image: url("../pics/BackgroundPic.jpg");*/
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+#find{
+    position: absolute;
+}
+#header{
+    background: no-repeat scroll center top !important;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 60px;
+    /*box-shadow: 1px 1px 100px black;*/
+}
+#Motto{
+    background-color:  white;
+    padding: 50px 0px 125px 0px;
+}
+#logo {
+    margin: 0px 0px 0px 250px;
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+#navigation {
+    float: right;
+}
+.navFont{
+    font-family: 'Abril Fatface', arial, serif;
+}
+/*img {
+    max-width: 100%;
+    max-height: 100%;
+}*/
+#MainPagePic {
+    border: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    /*background: url("../pics/main-page-pic-web.jpg") no-repeat;*/
+    width: 100%;
+    height: 800px;
+}
+#brandyName {
+     color: purple;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     text-transform: uppercase;
+}
+#brandyCredentials {
+    color: #c9ce95;
+
+}
+#lineOne{
+    color: #dac7de;
+    font-size: 100px;
+    font-family: 'Abril Fatface', arial, serif;
+    text-align: left;
+    margin: 0px 0px 0px 30px;
+    padding-top: 0px;
+}
+#lineTwo{
+    color: #dac7de;
+    font-size: 115px;
+    margin: 0px 0px 0px 30px;
+    font-family: 'Abril Fatface', arial, serif;
+}
+#lineThree{
+    color: #c9ce95;
+    margin: 0px 0px 0px 30px;
+    font-size: 50px;
+}
+ #mainQuoteBox {
+     margin-top: 10px;
+     width: 955px;
+     height: 80px;
+     background-color: white;
+     border: dashed pink;
+     padding-top: 25px;
+ }
+#mainQuote {
+ color: purple;
+ font-size: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-transform: uppercase;
+ text-align: center;
+}
+#mainAuthor{
+    color: darkolivegreen;
+    text-align: center;
+}
+#BalanceBoxQuote{
+    background-image: url("../pics/PinkBackground.jpg");
+    background-repeat: none;
+    height: 100px;
+    margin-top: 10px; 
+}
+#BalanceWord{
+    font-family: sans-serif;
+    font-size: 0.875em;
+}
+#BalanceSentence{
+
+}
+#content{
+
+}
+.MainText{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+p {
+    text-align: left;
+    font-family: serif;
+}
+#footer {
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+    height: 180px;
+    background-color: #eedcee;
+}
+.footerContainer {
+    width: 960px;
+    margin: 0 auto;
+    background-color:#eedcee;
+}
+#footerInfo{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+#footerQuote{
+    text-align: center;
+    color: purple;
+}
+#footerIcons{
+    display: block;
+    top: 50%;
+    left: 50%;
+}
+#footerFB{
+    position: relative;
+    top: 50%;
+    left: 45%;
+    height: 40px;
+    width: 40px;
+}
+#footerInstagram{
+    position: relative;
+    top: 50%;
+    left: 45%;
+    height: 40px;
+    width: 40px;
+}

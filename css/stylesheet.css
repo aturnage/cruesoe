@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url("../pics/BackgroundPic.jpg");
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    /*background-color: white;*/
+}
+#header{
+    background: white;
+    width: 100%;
+    top: 0;
+    /*position: fixed;*/
+    height: 60px;
+    /*box-shadow: 1px 1px 100px black;*/
+}
+#logo {
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+#navigation {
+    float: right;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#MainPagePic {
+    width: 960px;
+}
+ #brandyName {
+     color: purple;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     text-transform: uppercase;
+ }
+ #brandyCredentials {
+     color: #c9ce95;
+
+ }
+ #mainQuoteBox {
+     margin-top: 10px;
+     width: 955px;
+     height: 80px;
+     background-color: white;
+     border: dashed pink;
+     padding-top: 25px;
+ }
+ #mainQuote{
+ color: purple;
+ font-size: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: lighter;
+}
+#mainAuthor{
+    color: darkolivegreen;
+    text-align: center;
+}
+#BalanceBoxQuote{
+    background-image: url("../pics/main-quote-box.png") no-repeat;
+    background-repeat: none;
+    height: 100px; 
+}
+#balanceWord{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    margin-top: 30px;
+}
+#BalanceSentence{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Raleway';
+}
+#quote{
+    padding-top: 30px;
+}
+#content{
+    background-color: white;
+}
+.MainText{
+    font-family: 'Lora', Arial, Helvetica, sans-serif;
+    padding: 0px 100px 0px 100px;
+    font-size: 22px;  
+    font-weight: lighter; 
+    color: #333333;
+}
+#p1{
+    padding-top: 25px;
+    display: block;
+    margin: auto;
+}
+#p2{
+    padding-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+p {
+    text-align: left;
+    font-family: serif;
+}
+/*FOOTER SECTION*/
+#footer {
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+    height: 180px;
+    background-color: #eedcee;
+}
+.footerContainer {
+    width: 960px;
+    margin: 0 auto;
+    background-color:#eedcee;
+}
+#footerInfo{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Lora';
+}
+#footerQuote{
+    text-align: center;
+    color: purple;
+}
+#footerIcons{
+    display: block;
+    top: 50%;
+    left: 50%;
+    padding: 0px 0px 20px 0px;
+}
+#footerFB{
+    position: relative;
+    top: 50%;
+    left: 45%;
+    height: 40px;
+    width: 40px;
+}
+#footerInstagram{
+    position: relative;
+    top: 50%;
+    left: 45%;
+    height: 40px;
+    width: 40px;
+}
+/*ABOUT US PAGE*/
+
+ #mainQuoteBox {
+     margin-top: 10px;
+     width: 955px;
+     height: 80px;
+     background-color: white;
+     border: dashed pink;
+     padding-top: 25px;
+ }
+#mainQuote {
+ color: purple;
+ font-size: 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-transform: uppercase;
+ text-align: center;
+}
+#mainAuthor{
+    color: darkolivegreen;
+    text-align: center;
+}
+#BalanceBoxQuote{
+    background-image: url("../pics/main-quote-box.png");
+    background-repeat: none;
+    height: 100px;
+    margin-top: 10px; 
+}
+#BalanceWord{
+    font-family: sans-serif;
+    font-size: 0.875em;
+    color: white;
+}
+#BalanceSentence{
+    color: white;
+}
+#aboutBrandy{
+    width: 400px;
+    margin: 0px 0px 0px 30px;
+    padding: 0px 25px 15px 0px;
+    float: left;
+}
+#textTitle{
+    color: #C9CE95;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Lora';
+    padding: 0px 20px 0px 0px;
+}
+.aboutText{
+    font-family: 'Lora', Arial, Helvetica, sans-serif;
+    padding: 0px 100px 0px 25px;
+    font-size: 22px;  
+    font-weight: lighter; 
+    color: #333333;
+}
+.aboutHeader{
+    text-align: center;
+    text-transform: uppercase;
+    color: #C9CE95; 
+}
+.headerInfo{
+    text-align: center;
+    font-family: 'Lora', Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
+    color: #333333;
+    margin: 0;
+}
+#p22{
+    padding: 20px 0px 20px 0px;
+    display: block;
+    margin: auto;
+}
+/*SERVICES US PAGE*/
