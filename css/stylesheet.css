@@ -115,6 +115,9 @@ p {
     text-align: left;
     font-family: serif;
 }
+#tableList{
+    margin: auto;
+}
 /*FOOTER SECTION*/
 #footer {
     bottom: 0px;
