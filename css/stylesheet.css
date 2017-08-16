@@ -117,6 +117,8 @@ p {
 }
 #tableList{
     margin: auto;
+    text-align: center;
+    font-size: 20px;
 }
 /*FOOTER SECTION*/
 #footer {
@@ -205,7 +207,7 @@ p {
 #textTitle{
     color: #C9CE95;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Lora';
     padding: 0px 20px 0px 0px;
 }
@@ -227,10 +229,15 @@ p {
     font-weight: lighter; 
     color: #333333;
     margin: 0;
+    font-style: italic;
 }
 #p22{
     padding: 20px 0px 20px 0px;
     display: block;
     margin: auto;
+}
+#aboutPageImage{
+    margin: 0;
+    padding: 0;
 }
 /*SERVICES US PAGE*/
